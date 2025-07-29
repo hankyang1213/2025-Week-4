@@ -1,0 +1,689 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+    /*outline: solid 1px;*/
+}
+
+body{
+    font-family:"Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color:$text-primary;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: $neutral-900;  
+}
+
+ul{
+    margin: 0px;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.about-container{
+    max-width: 1076px;
+    margin: 0 auto;
+}
+
+.button-style{
+    padding: 12px 24px;    
+    background-color: $primary-300;
+    border-radius: 8px;
+}
+
+.bradge-style{
+    padding: 8px 12px;
+    background-color: $primary-100;
+
+}
+
+/*統用格式*/
+
+/*樣式設置*/
+.w-50{
+    width: 50%;
+}
+
+.w-80{
+    width:80%;
+}
+
+.w-100{
+    width:100%;
+}
+
+.w-64{
+    width: 64px;
+}
+
+.t-d-l-t{
+    text-decoration: line-through;
+}
+
+.border-t{
+    border-top: 1px solid $neutral-300;
+}
+
+.border-b{
+    border-bottom: 1px solid $neutral-300;
+}
+
+.border-b-2{
+    border-bottom: 2px solid $neutral-300;
+}
+
+.border-b-p{
+    border-bottom: 1px solid $primary-400;
+}
+
+.border-e{
+    border-left: 1px solid $neutral-300;
+}
+
+.border{
+    border: 1px solid $neutral-300;
+}
+
+.border-r-8{
+    border-radius: 8px;
+}
+
+.opacity-40{
+    opacity: 40%;
+}
+
+
+/*顏色設置*/
+.text-c-1{
+    color: $text-on-dark;
+}
+
+.text-c-2{
+    color: $primary-300;
+}
+
+.text-c-3{
+    color:$neutral-500;
+}
+
+.text-c-4{
+    color:$neutral-900;
+}
+
+.text-c-5{
+    color:$primary-400;
+}
+
+.text-c-6{
+    color:$neutral-600;
+}
+
+.text-c-7{
+    color:$danger-300;
+}
+
+.text-c-8{
+    color:$neutral-300;
+}
+
+.bg-c-1{
+    background-color:$neutral-900;
+}
+.bg-c-2{
+    background-color:$primary-100;
+}
+.bg-c-3{
+    background-color:$primary-300;
+}
+.bg-c-4{
+    background-color:$neutral-100;
+}
+
+.d-f{
+    display: flex;    
+}
+
+.f-d-c{
+    flex-direction: column;
+}
+
+.j-c-s-b{
+    justify-content: space-between;
+}
+
+.j-c-s-c{
+    justify-content: center;
+}
+
+.j-c-s-s{
+    justify-content: start;
+}
+
+
+.f-w{
+    flex-wrap: wrap;
+}
+
+.d-b{
+    display: block;
+}
+
+.d-n{
+    display: none;
+}
+
+.d-i{
+    display: inline;
+}
+
+.d-i-b{
+    display: inline-block;
+}
+
+.align-items-c{
+    align-items: center;
+}
+
+.text-align-c{
+    text-align: center;
+}
+
+.text-align-r{
+    text-align: right;
+}
+
+.gpa-8{
+    gap: 8px;
+}
+
+.gpa-12{
+    gap: 12px;
+}
+
+.gpa-16{
+    gap: 16px;
+}
+
+.gap-48{
+    gap:48px;
+}
+
+.gap-40{
+    gap:40px;
+}
+
+.my-12{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.my-32{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.my-48{
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.my-64{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.my-100{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mx-a{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mx-24{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.mx-40{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.mx--4{
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+
+.mx--12{
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.me-48{
+    margin-left: 48px;
+}
+
+.mt-4{
+    margin-top: 4px;
+}
+
+.mt-32{
+    margin-top: 32px;
+}
+
+.mt-48{
+    margin-top: 48px;
+}
+
+.mt-64{
+    margin-top: 64px;
+}
+
+.me-24{
+    margin-left: 24px;
+}
+
+.me-a{
+    margin-left: auto;
+}
+
+.mx-a{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mr-24{
+    margin-right: 24px;
+}
+
+.mr-4{
+    margin-right: 4px;
+}
+
+.mr-12{
+    margin-right: 12px;
+}
+
+.mb-4{
+    margin-bottom: 4px;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+
+.mb-12{
+    margin-bottom: 12px;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mb-21{
+    margin-bottom: 21px;
+}
+
+.mb-24{
+    margin-bottom: 24px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.mb-36{
+    margin-bottom: 36px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.mb-48{
+    margin-bottom: 48px;
+}
+
+.mb-64{
+    margin-bottom: 64px;
+}
+
+.p-15{
+    padding: 15px;
+}
+
+.p-16{
+    padding: 16px;
+}
+
+.px-4{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.px-15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.px-12{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.px--12{
+    padding-left: -12px;
+    padding-right: -12px;
+}
+
+.px-24{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.px--4{
+    padding-left: -4px;
+    padding-right: -4px;
+}
+
+.py-8{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.py-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.py-13{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.py-16{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.py-24{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.py-32{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.py-48{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.py-64{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+
+.py-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.py-151{
+    padding-top: 151px;
+    padding-bottom: 151px;
+}
+
+.pt-48{
+    padding-top: 48px;
+}
+
+.pt-32{
+    padding-top: 32px;
+}
+
+.pe-12{
+    padding-left: 12px;
+}
+
+.pe-8{
+    padding-left: 8px;
+}
+
+.pr-12{
+    padding-right: 12px;
+}
+.pb-29{
+    padding-bottom: 29px;
+}
+.pb-37{
+    padding-bottom: 37px;
+}
+.pb-4{
+    padding-bottom: 4px;
+}
+
+
+/*網格*/
+.col-md-2{
+    width: 50%;  
+}
+.col-1{
+    width: 20%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.col-2{
+    width: 16.67%;
+}
+
+.col-5{
+    width: 41.66%;
+}
+
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+
+.col-6-px-8{
+    width: 50%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.col-3{
+    width:25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.col-4{
+    width:33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-8{
+    width:66.67%;
+}
+
+.col-10{
+    width:83.33%;
+}
+
+.col-12{
+    width: 100%;
+}
+/*測試*/
+.test{
+    height: 500px;    
+    border: 1px solid $neutral-900;
+}
+
+/*統用格式-RWD*/
+
+@media screen and (max-width:768px) {
+    .gap-md-0{
+        gap:0px;
+    }
+
+    .d-b-md{
+        display: block;
+    }
+    .d-n-md{
+        display: none;
+    }
+    .f-d-md-c{
+        flex-direction: column;
+    }
+    .f-md-w{
+        flex-wrap: wrap;
+    }
+    .j-c-md-s{
+        justify-content: start;
+    }
+    .a-i-md-s{
+        align-items: flex-start;
+    }
+
+    .t-a-j{
+        text-align:justify
+    }
+
+    .p-24{
+        padding: 24px;
+    }
+    .pt-md-40{
+        padding-top: 40px;
+        padding-bottom: 0px;  
+    }
+    .py-md-12{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .py-md-24{
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .py-md-32{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .py-md-40{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .py-md-64{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    .px-md-6{
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .px-md-12{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .px-md-24{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .px-md-0{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .pt-md-24{
+        padding-top: 24px;
+    }
+    .mu-md-0{
+        margin-top: 0px;
+        margin-bottom: 0px;  
+    }
+    .my-md-8{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .my-md-32{
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .mx-md--6{
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+    .mx-md-64{
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+    .mb-md-12{
+        margin-bottom: 12px;
+    }
+    .mb-md-24{
+        margin-bottom: 24px;
+    }
+    .mb-md-32{
+        margin-bottom: 32px;
+    }
+    .mb-md-40{
+        margin-bottom: 40px;
+    }
+    .mr-md-16{
+        margin-right: 16px;
+    }
+
+    .mt-md-32{
+        margin-top: 32px;
+    }
+
+    .fz-md-16{
+        font-size: 16px;
+    }
+    .fz-md-20{
+        font-size: 20px;
+    }    
+    .fz-md-28{
+        font-size: 28px;
+    }
+    .fz-md-32{
+        font-size: 32px;
+    }
+
+    .col-md-2{
+        width: 50%;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .col-md-4{
+        width: 100%;
+    }
+}

@@ -1,4 +1,12 @@
 .footer{
-  background: #69F0AE;
-  font-size: 64px;
+    .footer-nav{
+        .page_link{
+            .arrow{
+                &:hover{
+                    opacity:0.5;
+                    transition:opacity 0.5s;
+                }
+            }            
+        }
+    }
 }

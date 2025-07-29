@@ -1,4 +1,64 @@
+/*頁首*/
 .header{
-  background: #69F0AE;
-  font-size: 64px;
+    .logo{
+        .logo-text{
+            position: relative;
+            z-index: 1;
+            font-family: "Mina", sans-serif;            
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 150%;
+            letter-spacing: 0.044em;
+            text-decoration: none;
+            color:var(--color-neutral);
+            .bi-circle-fill{
+                position: absolute;
+                z-index: -1;
+                top:13px;
+                right: 10px;
+                width: 8px;
+                height: 8px;
+                color: $primary-300;
+            }        
+        }
+    }
+    .header-nav{
+        @media(max-width:768px){
+            display: none;
+        }
+        .page_link{
+            .arrow{
+                &:hover{
+                    opacity:0.5;
+                    transition:opacity 0.5s;
+                }
+            }            
+        }
+    }
+    .member{
+        .member-icon{
+            color: $neutral-900;
+            &:hover{
+                color: $primary-300;
+            }
+        }
+    }
+}
+/*RWD page_link*/
+.nav-rwd{
+    display: none;
+        @media(max-width:768px){
+        display: block;
+        .page_link{
+            gap:0px;
+            .arrow-left{
+                background-color: $primary-200;
+                text-align: center;
+            }
+            .arrow-right{
+                background-color: $primary-100;
+                text-align: center;
+            }
+        }
+    }    
 }

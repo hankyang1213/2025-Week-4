@@ -1,0 +1,27 @@
+.page-title{
+    background-image: url('/assets/images/hero.png');
+    background-position: center;
+    background-size: cover;
+    @media screen and (max-width:768px) {
+        background-image: url('/assets/images/hero-image.png');
+    }
+}
+
+.main{
+    .history{
+        ul{
+            list-style-type: disc;
+            list-style-position: inside;
+            padding-left: 8px;
+            li{
+                .year{
+                    padding-right: 8px;
+                }
+                .label{
+                    padding-left: 8px;
+                    border-left: 1px solid $neutral-900;
+                }
+            }
+        }
+    }
+}
