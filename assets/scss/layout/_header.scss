@@ -10,7 +10,7 @@
             line-height: 150%;
             letter-spacing: 0.044em;
             text-decoration: none;
-            color:var(--color-neutral);
+            color:$neutral-900;
             .bi-circle-fill{
                 position: absolute;
                 z-index: -1;
@@ -29,7 +29,7 @@
         .page_link{
             .arrow{
                 &:hover{
-                    opacity:0.5;
+                    opacity:0.8;
                     transition:opacity 0.5s;
                 }
             }            

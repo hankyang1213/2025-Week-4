@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about</title>
+    <%- include('./layout/cdn'); -%>
+  </head>
+  <body>
+    <%- include('./layout/header-rwd'); -%>
+
+    <div class="container">
+        <main class="main">
+            <div class="login d-f f-d-md-c">
+                <div class="banner-image col-5 col-md-4 mr-24">
+                    <div class="image">
+                        <img src="/assets/images/login (1).png" alt="">
+                    </div>
+                    <div class="image-rwd">
+                        <img src="/assets/images/login-sm.png" alt="">
+                    </div>
+                </div>
+                <div class="login-content col-7 col-md-4">
+                    <h3 class="tw-heading-h3 text-align-c mb-32">歡迎 !</h3>
+                    <div class="tablist d-f mb-32">
+                        <h6 class="tw-heading-h6 text-align-c w-50">
+                            <a href="#" class="tab py-13 text-c-4 border-b-2">登入</a>
+                        </h6>
+                        <h6 class="tw-heading-h6 text-align-c w-50">
+                            <a href="#" class="tab py-13 text-c-4 border-b-2">註冊</a>
+                        </h6>
+                    </div>
+                    <div class="login-style">
+                        <div class="facebook d-f align-items-c border mb-8">
+                            <img src="/assets/images/facebook.svg" alt="">
+                            <a href="#" class="text tw-paragraph-md">Facebook 登入</a>
+                        </div>
+                        <div class="facebook d-f align-items-c border mb-8">
+                            <img src="/assets/images/apple.svg" alt="">
+                            <a href="#" class="text tw-paragraph-md">Apple 登入</a>
+                        </div>
+                        <div class="facebook d-f align-items-c border mb-8">
+                            <img src="/assets/images/google.svg" alt="">
+                            <a href="#" class="text tw-paragraph-md">Goole 登入</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <%- include('./layout/call-to-action'); -%>
+    <%- include('./layout/footer'); -%>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

@@ -3,11 +3,15 @@
 @import "./helper/variable";
 @import "./helper/mixin";
 
-@import './layout/header';
+@import "./layout/header";
 @import './layout/footer';
 @import "./layout/call-to-action";
 
 @import "./pages/index";
 @import "./pages/about";
+@import "./pages/products";
+@import "./pages/products-derail";
+@import "./pages/favorites";
+@import "./pages/login";
 
 

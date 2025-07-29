@@ -1,0 +1,17 @@
+.cart{
+    .product-info{
+        .image{
+            width: 120px;
+            height: 120px;
+        }
+    }
+    .button{
+        .lable{
+            background-color: $neutral-900;
+            border-radius: 4px;
+            color: $neutral-100;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

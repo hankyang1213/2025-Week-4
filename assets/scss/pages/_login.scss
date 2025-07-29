@@ -1,0 +1,62 @@
+.main{
+    .banner-image{
+        .image{
+            @media screen and (max-width:765px) {
+                display: none;
+            }
+        }
+        .image-rwd{
+            display: none;
+            @media screen and (max-width:765px) {
+                display: block;
+            }
+        }
+    }
+    .login-content{
+        background-image: url(/assets/images/login.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 12px;
+        padding: 120px 80px;
+        @media screen and (max-width:768px) {
+            border-radius: 0px;
+            background-image: none;
+            padding: 32px;
+        }
+        .tab:hover{
+            color: $neutral-900;
+            border-color: $neutral-900;
+        }
+        .tab:focus{
+            color: $neutral-900;
+            border-color: $neutral-900;
+        }
+        .login-style{
+            .facebook{
+                padding: 12.9px;
+                background-color: $neutral-0;
+                .text{
+                    margin-left: 12px;
+                }
+            }
+        }
+    }
+}
+
+.cart{
+    .product-info{
+        .image{
+            width: 120px;
+            height: 120px;
+        }
+    }
+    .button{
+        .lable{
+            background-color: $neutral-900;
+            border-radius: 4px;
+            color: $neutral-100;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

@@ -1,0 +1,99 @@
+.main{
+    .spec-cta{
+        .option-card:hover{
+            img{
+                filter: contrast(1.1);
+                transition:filter 0.5s;
+            }
+        }
+        .option-card:focus{
+            img{
+                border: 1px solid $neutral-900;
+            }
+            .text{
+                color: $neutral-900;
+            }
+        }
+        .btn-size-wrapper{
+            position: relative;
+            display: grid;          
+            gap: 8px;
+            grid-template-columns: 160px 160px 160px;
+            grid-template-rows: 1fr 1fr;
+            @media screen and (max-width:768px) {
+                grid-template-columns: 160px 160px;
+            }
+            .optiot:hover{
+                .hint-quantity{
+                    display: block;
+                }
+            }
+            .size-text:hover{
+                border-color: $neutral-600;
+            }
+            .size-text:focus{
+                border-color: $neutral-600;
+            }
+            .hint-quantity{
+                position: absolute;
+                left: 0px;
+                bottom: 0px;
+            }
+        }
+        .btn-wrapper{
+            .wrapper{
+                border: 1px solid $neutral-900;
+                border-radius: 4px;
+                gap: 8px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;              
+            }
+            .btn-left{
+                @media screen and (max-width:768px) {
+                    display: none;
+                }
+            }
+            .btn-left:hover{
+                background-color: $neutral-900;
+                color: $neutral-0;
+            }
+            .btn-right{                
+                background-color: $neutral-900;
+                @media screen and (max-width:768px) {
+                    width: 100%;
+                }
+                &:hover{
+                    opacity:0.5;                    
+                }
+            }
+            .btn-heart{
+                display: none;
+                @media screen and (max-width:768px) {
+                    width: 0;
+                    display: block;
+                    border: 0px;
+                    width: 48px;
+                    height: 48px;               
+                }
+            }
+        }
+    }
+}
+
+.best-seller{
+    .card{
+        position: relative;
+        .bradge{
+            position: absolute;
+            top:0px;
+            left: 0px;
+        }
+        img{
+            &:hover{
+                filter: contrast(0.9);
+                transition:filter 0.5s;
+            }
+        }
+    }
+}

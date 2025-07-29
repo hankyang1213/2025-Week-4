@@ -1,0 +1,22 @@
+.main{
+    .breadcrumb{
+        .item:hover{
+            color: $primary-400;
+        }  
+    }
+    .content-menu{
+        .menu{
+            a:hover{
+                color: $primary-400;
+            }
+        }
+        .pagination{
+            .page:hover{
+                background-color: $neutral-300;
+            }
+            .page:focus{
+                background-color: $primary-300;
+            }
+        }
+    }
+}
