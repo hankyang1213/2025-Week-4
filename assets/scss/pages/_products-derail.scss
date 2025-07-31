@@ -1,5 +1,6 @@
 .main{
     .spec-cta{
+        max-width: 100%;
         .option-card:hover{
             img{
                 filter: contrast(1.1);
@@ -16,12 +17,16 @@
         }
         .btn-size-wrapper{
             position: relative;
-            display: grid;          
+            display: flex;
+            flex-wrap: wrap;          
             gap: 8px;
-            grid-template-columns: 160px 160px 160px;
+            /*grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr;
             @media screen and (max-width:768px) {
                 grid-template-columns: 160px 160px;
+            }*/
+            .optiot{
+                width: 30%;
             }
             .optiot:hover{
                 .hint-quantity{
@@ -35,6 +40,7 @@
                 border-color: $neutral-600;
             }
             .hint-quantity{
+                display: none;
                 position: absolute;
                 left: 0px;
                 bottom: 0px;

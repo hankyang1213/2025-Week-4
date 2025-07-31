@@ -11,6 +11,14 @@
             }
         }
         .pagination{
+            .chevron-left{
+                cursor: default;
+                pointer-events: none;
+                opacity: 0.5;
+            }
+            .page-one{
+                background-color: $primary-300;
+            }
             .page:hover{
                 background-color: $neutral-300;
             }

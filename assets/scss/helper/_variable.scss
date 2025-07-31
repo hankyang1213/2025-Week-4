@@ -50,7 +50,13 @@ ul{
 
 }
 
+.f-f-m{
+    font-family: "Montserrat", sans-serif;
+}
+
 /*統用格式*/
+
+
 
 /*樣式設置*/
 .w-50{
@@ -150,6 +156,12 @@ ul{
 }
 .bg-c-4{
     background-color:$neutral-100;
+}
+
+.c-d-p-n{
+    cursor: default;
+    pointer-events: none;
+    opacity: 0.5;
 }
 
 .d-f{
@@ -546,7 +558,23 @@ ul{
 }
 
 /*統用格式-RWD*/
-
+@media screen and (max-width:1050px) {
+    .d-b-xl{
+        display: block;
+    }
+    .d-n-xl{
+        display: none;
+    }
+    .f-d-xl-c{
+        flex-direction: column;
+    }
+    .f-md-w{
+        flex-wrap: wrap;
+    }
+    .col-md-4{
+        width: 100%;
+    }
+}
 @media screen and (max-width:768px) {
     .gap-md-0{
         gap:0px;
