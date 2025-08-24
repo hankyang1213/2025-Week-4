@@ -17,3 +17,6 @@ $('.owl-carousel').owlCarousel({
             }
         }
 })
+
+
+AOS.init();
